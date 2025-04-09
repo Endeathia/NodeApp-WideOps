@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nodeapp
-          image: gcr.io/YOUR_PROJECT_ID/node-replica-app
+          image: tamer153/node-app
           ports:
             - containerPort: 3000
           resources:
