@@ -1,0 +1,7 @@
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: nodeapp-cert
+spec:
+  domains:
+    - tamer.zapto.org
